@@ -1,0 +1,23 @@
+# Dependencias de Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos de entorno y configuración sensible
+.env
+config.js
+*.key
+*.pem
+
+# Archivos de logs
+logs/
+*.log
+*.out
+*.err
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ar

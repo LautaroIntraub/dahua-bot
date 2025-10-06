@@ -1,0 +1,23 @@
+{
+  "name": "dahua-bot",
+  "version": "1.0.0",
+  "description": "Bot de Telegram para recibir alertas de cámaras Dahua (DMSS)",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "bot-test": "node telegramBot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["dahua", "telegram", "bot", "nodejs", "security"],
+  "author": "Lautaro Intraub",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.12.2",
+    "body-parser": "^2.2.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}

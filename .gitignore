@@ -6,7 +6,6 @@ yarn-error.log*
 
 # Archivos de entorno y configuración sensible
 .env
-config.js
 *.key
 *.pem
 
